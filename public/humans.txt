@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: Patronum Labs - Yamen Merhi
+Site: https://github.com/Patronum-Labs
+Twitter: @PatronumLabs @0xYamen
