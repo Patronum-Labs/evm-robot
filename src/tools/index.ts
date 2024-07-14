@@ -101,6 +101,7 @@ import { tool as evmCreate } from './evm-create';
 import { tool as evmCreate2 } from './evm-create2';
 import { tool as evmNetwork } from './evm-network';
 import { tool as evmUnits } from './evm-units';
+import { tool as evmKeccak256 } from './evm-keccak256';
 import { tool as evmSignature } from './evm-signature';
 import { tool as evmNamehash } from './evm-namehash';
 
@@ -119,6 +120,7 @@ export const toolsByCategory: ToolCategory[] = [
       evmCreate2,
       evmNetwork,
       evmUnits,
+      evmKeccak256,
       evmSignature,
       evmNamehash,
     ],

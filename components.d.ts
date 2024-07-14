@@ -92,6 +92,7 @@ declare module '@vue/runtime-core' {
     EvmConvertion: typeof import('./src/tools/evm-units/evm-convertion.vue')['default']
     EvmCreate: typeof import('./src/tools/evm-create/evm-create.vue')['default']
     EvmCreate2: typeof import('./src/tools/evm-create2/evm-create2.vue')['default']
+    EvmKeccak256: typeof import('./src/tools/evm-keccak256/evm-keccak256.vue')['default']
     EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
     EvmNamehash: typeof import('./src/tools/evm-namehash/evm-namehash.vue')['default']
     EvmNameHash: typeof import('./src/evm-nameHash/evm-nameHash.vue')['default']
