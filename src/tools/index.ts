@@ -82,10 +82,37 @@ import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 
+// Added ERC Tools
+import { tool as erc20 } from './erc-20';
+import { tool as erc165 } from './erc-165';
+import { tool as erc173 } from './erc-173';
+import { tool as erc191 } from './erc-191';
+import { tool as erc721 } from './erc-721';
+import { tool as erc725 } from './erc-725';
+import { tool as erc1155 } from './erc-1155';
+import { tool as erc1167 } from './erc-1167';
+import { tool as erc1271 } from './erc-1271';
+
 export const toolsByCategory: ToolCategory[] = [
   {
+    name: 'ERC',
+    components: [erc20, erc165, erc173, erc191, erc721, erc725, erc1155, erc1167, erc1271],
+  },
+  {
     name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+    components: [
+      tokenGenerator,
+      hashText,
+      bcrypt,
+      uuidGenerator,
+      ulidGenerator,
+      cypher,
+      bip39,
+      hmacGenerator,
+      rsaKeyPairGenerator,
+      passwordStrengthAnalyser,
+      pdfSignatureChecker,
+    ],
   },
   {
     name: 'Converter',
@@ -152,7 +179,14 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+    components: [
+      ipv4SubnetCalculator,
+      ipv4AddressConverter,
+      ipv4RangeExpander,
+      macAddressLookup,
+      macAddressGenerator,
+      ipv6UlaGenerator,
+    ],
   },
   {
     name: 'Math',
@@ -182,5 +216,5 @@ export const toolsByCategory: ToolCategory[] = [
 
 export const tools = toolsByCategory.flatMap(({ components }) => components);
 export const toolsWithCategory = toolsByCategory.flatMap(({ components, name }) =>
-  components.map(tool => ({ category: name, ...tool })),
+  components.map((tool) => ({ category: name, ...tool })),
 );
