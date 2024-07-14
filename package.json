@@ -35,6 +35,7 @@
     "release": "node ./scripts/release.mjs"
   },
   "dependencies": {
+    "@adraffy/ens-normalize": "^1.10.1",
     "@it-tools/bip39": "^0.0.4",
     "@it-tools/oggen": "^1.3.0",
     "@sindresorhus/slugify": "^2.2.1",
@@ -58,6 +59,8 @@
     "date-fns": "^2.29.3",
     "dompurify": "^3.0.6",
     "emojilib": "^3.0.10",
+    "eth-ens-namehash": "^2.0.8",
+    "ethers": "^6.13.1",
     "figlet": "^1.7.0",
     "figue": "^1.2.0",
     "fuse.js": "^6.6.2",
