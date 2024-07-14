@@ -116,10 +116,13 @@ async function queryStorageSlot() {
 }
 
 // Watch for changes in RPC input
-watch(rpcInput, () => {
+watch(rpcInput, async () => {
   resetStatus();
   if (!walletConnected.value && rpcValid.value) {
     provider = new ethers.JsonRpcProvider(rpcInput.value);
+    const network = await provider.getNetwork();
+    networkInfo.value = `${network.name} (Chain ID: ${network.chainId})`;
+    walletConnected.value = true;
   }
 });
 </script>
