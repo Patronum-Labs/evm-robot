@@ -86,6 +86,7 @@ declare module '@vue/runtime-core' {
     Erc721: typeof import('./src/tools/erc-721/erc-721.vue')['default']
     Erc725: typeof import('./src/tools/erc-725/erc-725.vue')['default']
     EtaCalculator: typeof import('./src/tools/eta-calculator/eta-calculator.vue')['default']
+    EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
     FormatTransformer: typeof import('./src/components/FormatTransformer.vue')['default']
     GitMemo: typeof import('./src/tools/git-memo/git-memo.vue')['default']
