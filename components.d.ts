@@ -89,6 +89,7 @@ declare module '@vue/runtime-core' {
     EvmAddr: typeof import('./src/tools/evm-address/evm-addr.vue')['default']
     EvmAddress: typeof import('./src/tools/evm-address/evm-address.vue')['default']
     EvmCreate: typeof import('./src/tools/evm-create/evm-create.vue')['default']
+    EvmCreate2: typeof import('./src/tools/evm-create2/evm-create2.vue')['default']
     EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
     EvmPrecalculate: typeof import('./src/tools/evm-create/evm-precalculate.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
