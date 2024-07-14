@@ -101,6 +101,7 @@ import { tool as evmCreate } from './evm-create';
 import { tool as evmCreate2 } from './evm-create2';
 import { tool as evmNetwork } from './evm-network';
 import { tool as evmSignature } from './evm-signature';
+import { tool as evmNamehash } from './evm-namehash';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -109,7 +110,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'EVM',
-    components: [evmKeys, evmAddress, evmChecksum, evmCreate, evmCreate2, evmNetwork, evmSignature],
+    components: [evmKeys, evmAddress, evmChecksum, evmCreate, evmCreate2, evmNetwork, evmSignature, evmNamehash],
   },
   {
     name: 'Crypto',
