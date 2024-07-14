@@ -3,7 +3,7 @@ home:
     newestTools: Newest tools
     favoriteTools: 'Your favorite tools'
     allTools: 'All the tools'
-  subtitle: 'built by Patronum Labs'
+  subtitle: 'Forked by Patronum Labs'
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
@@ -30,7 +30,7 @@ about:
   content: >
     # About EVM Robot
 
-    This tool is built and maintained by [PatronumLabs](https://github.com/Patronum-Labs). It is a fork of [IT-Tools](https://it-tools.tech/), originally built by [Corentin Thomasset](https://github.com/CorentinTh). It aggregates useful tools for web3 developer from ERCs to low level EVM tools. 
+    This tool is forked and maintained by [PatronumLabs](https://github.com/Patronum-Labs). It is a fork of [IT-Tools](https://it-tools.tech/), originally built by [Corentin Thomasset](https://github.com/CorentinTh). It aggregates useful tools for web3 developer from ERCs to low level EVM tools. 
 
 
     If you find it useful, please feel free to share it to people you think may find it useful too and don't forget to bookmark it in your shortcut bar!
