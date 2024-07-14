@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/logo.png" width="200" alt="logo">
+  <img src=".github/logo.png" width="300" alt="logo">
 </p>
 
 Collection of handy EVM tools for web3 developers. [Have a look !](#)
