@@ -91,6 +91,7 @@ declare module '@vue/runtime-core' {
     EvmCreate: typeof import('./src/tools/evm-create/evm-create.vue')['default']
     EvmCreate2: typeof import('./src/tools/evm-create2/evm-create2.vue')['default']
     EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
+    EvmNetwork: typeof import('./src/tools/evm-network/evm-network.vue')['default']
     EvmPrecalculate: typeof import('./src/tools/evm-create/evm-precalculate.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
     FormatTransformer: typeof import('./src/components/FormatTransformer.vue')['default']
