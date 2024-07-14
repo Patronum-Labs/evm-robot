@@ -95,6 +95,7 @@ import { tool as erc1271 } from './erc-1271';
 
 // Added EVM Tools
 import { tool as evmKeys } from './evm-keys';
+import { tool as evmAddress } from './evm-address';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -103,7 +104,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'EVM',
-    components: [evmKeys],
+    components: [evmKeys, evmAddress],
   },
   {
     name: 'Crypto',
