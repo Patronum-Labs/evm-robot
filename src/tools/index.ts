@@ -96,6 +96,7 @@ import { tool as erc1271 } from './erc-1271';
 // Added EVM Tools
 import { tool as evmKeys } from './evm-keys';
 import { tool as evmAddress } from './evm-address';
+import { tool as evmChecksum } from './evm-checksum';
 import { tool as evmCreate } from './evm-create';
 import { tool as evmCreate2 } from './evm-create2';
 import { tool as evmNetwork } from './evm-network';
@@ -108,7 +109,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'EVM',
-    components: [evmKeys, evmAddress, evmCreate, evmCreate2, evmNetwork, evmSignature],
+    components: [evmKeys, evmAddress, evmChecksum, evmCreate, evmCreate2, evmNetwork, evmSignature],
   },
   {
     name: 'Crypto',

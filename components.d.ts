@@ -88,6 +88,7 @@ declare module '@vue/runtime-core' {
     EtaCalculator: typeof import('./src/tools/eta-calculator/eta-calculator.vue')['default']
     EvmAddr: typeof import('./src/tools/evm-address/evm-addr.vue')['default']
     EvmAddress: typeof import('./src/tools/evm-address/evm-address.vue')['default']
+    EvmChecksum: typeof import('./src/tools/evm-checksum/evm-checksum.vue')['default']
     EvmCreate: typeof import('./src/tools/evm-create/evm-create.vue')['default']
     EvmCreate2: typeof import('./src/tools/evm-create2/evm-create2.vue')['default']
     EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
