@@ -93,6 +93,7 @@ declare module '@vue/runtime-core' {
     EvmKeys: typeof import('./src/tools/evm-keys/evm-keys.vue')['default']
     EvmNetwork: typeof import('./src/tools/evm-network/evm-network.vue')['default']
     EvmPrecalculate: typeof import('./src/tools/evm-create/evm-precalculate.vue')['default']
+    EvmSignature: typeof import('./src/tools/evm-signature/evm-signature.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
     FormatTransformer: typeof import('./src/components/FormatTransformer.vue')['default']
     GitMemo: typeof import('./src/tools/git-memo/git-memo.vue')['default']
