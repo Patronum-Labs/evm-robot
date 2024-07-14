@@ -63,6 +63,7 @@ search:
 tools:
   categories:
     favorite-tools: 'Your favorite tools'
+    erc: ERC
     crypto: Crypto
     converter: Converter
     web: Web
