@@ -82,6 +82,7 @@ declare module '@vue/runtime-core' {
     Erc165: typeof import('./src/tools/erc-165/erc-165.vue')['default']
     Erc173: typeof import('./src/tools/erc-173/erc-173.vue')['default']
     Erc191: typeof import('./src/tools/erc-191/erc-191.vue')['default']
+    Erc1967: typeof import('./src/tools/erc-1967/erc-1967.vue')['default']
     Erc20: typeof import('./src/tools/erc-20/erc-20.vue')['default']
     Erc721: typeof import('./src/tools/erc-721/erc-721.vue')['default']
     Erc725: typeof import('./src/tools/erc-725/erc-725.vue')['default']
