@@ -88,6 +88,7 @@ import { tool as erc165 } from './erc-165';
 import { tool as erc173 } from './erc-173';
 import { tool as erc191 } from './erc-191';
 import { tool as erc721 } from './erc-721';
+import { tool as erc777 } from './erc-777';
 import { tool as erc725 } from './erc-725';
 import { tool as erc1155 } from './erc-1155';
 import { tool as erc1167 } from './erc-1167';
@@ -108,7 +109,7 @@ import { tool as evmNamehash } from './evm-namehash';
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'ERC',
-    components: [erc20, erc165, erc173, erc191, erc721, erc725, erc1155, erc1167, erc1271],
+    components: [erc20, erc165, erc173, erc191, erc721, erc725, erc777, erc1155, erc1167, erc1271],
   },
   {
     name: 'EVM',
