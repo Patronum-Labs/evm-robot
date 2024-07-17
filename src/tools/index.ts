@@ -106,6 +106,7 @@ import { tool as evmUnits } from './evm-units';
 import { tool as evmKeccak256 } from './evm-keccak256';
 import { tool as evmSignature } from './evm-signature';
 import { tool as evmNamehash } from './evm-namehash';
+import { tool as evmRawTxDecode } from './evm-raw-tx-decode';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -125,6 +126,7 @@ export const toolsByCategory: ToolCategory[] = [
       evmKeccak256,
       evmSignature,
       evmNamehash,
+      evmRawTxDecode,
     ],
   },
   {
