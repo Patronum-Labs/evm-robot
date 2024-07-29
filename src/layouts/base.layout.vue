@@ -123,7 +123,7 @@ const tools = computed<ToolCategory[]>(() => [
         <c-tooltip position="bottom" :tooltip="$t('home.support')">
           <c-button
             round
-            href="https://www.buymeacoffee.com/"
+            href="https://etherscan.io/address/0x5D551AbEAD9b93ebd0D092722517136FF278c3D0"
             rel="noopener"
             target="_blank"
             class="support-button"
