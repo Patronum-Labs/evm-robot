@@ -108,6 +108,10 @@ import { tool as evmSignature } from './evm-signature';
 import { tool as evmNamehash } from './evm-namehash';
 import { tool as evmRawTxDecode } from './evm-raw-tx-decode';
 
+// LSP
+import { tool as lsp7 } from './lsp-7';
+import { tool as lsp8 } from './lsp-8';
+
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'ERC',
@@ -128,6 +132,10 @@ export const toolsByCategory: ToolCategory[] = [
       evmNamehash,
       evmRawTxDecode,
     ],
+  },
+  {
+    name: 'LSP',
+    components: [lsp7, lsp8],
   },
   {
     name: 'Crypto',
