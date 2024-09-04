@@ -94,6 +94,7 @@ import { tool as erc1155 } from './erc-1155';
 import { tool as erc1167 } from './erc-1167';
 import { tool as erc1271 } from './erc-1271';
 import { tool as erc1967 } from './erc-1967';
+import { tool as erc7511 } from './erc-7511';
 
 // Added EVM Tools
 import { tool as evmKeys } from './evm-keys';
@@ -115,7 +116,7 @@ import { tool as lsp8 } from './lsp-8';
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'ERC',
-    components: [erc20, erc165, erc173, erc191, erc721, erc725, erc777, erc1155, erc1167, erc1271, erc1967],
+    components: [erc20, erc165, erc173, erc191, erc721, erc725, erc777, erc1155, erc1167, erc1271, erc1967, erc7511],
   },
   {
     name: 'EVM',

@@ -86,6 +86,7 @@ declare module '@vue/runtime-core' {
     Erc20: typeof import('./src/tools/erc-20/erc-20.vue')['default']
     Erc721: typeof import('./src/tools/erc-721/erc-721.vue')['default']
     Erc725: typeof import('./src/tools/erc-725/erc-725.vue')['default']
+    Erc7511: typeof import('./src/tools/erc-7511/erc-7511.vue')['default']
     Erc777: typeof import('./src/tools/erc-777/erc-777.vue')['default']
     EtaCalculator: typeof import('./src/tools/eta-calculator/eta-calculator.vue')['default']
     EvmAddress: typeof import('./src/tools/evm-address/evm-address.vue')['default']
